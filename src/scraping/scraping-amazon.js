@@ -19,7 +19,7 @@ const pass = process.env.PASS;
 
 const list = [];
 
-(async () => {
+const scrapJ = (async () => {
   // headless: false mostra o processo se True executa em segundo plano
   const browser = await pup.launch({ headless: false });
   // page = await browser.newPage();
@@ -141,3 +141,6 @@ const list = [];
   // .then(console.log)
   // .catch(console.error);
 })();
+
+module.exports = { scrapJ };
+// export default scrapJ;

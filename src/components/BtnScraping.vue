@@ -1,7 +1,8 @@
 <template>
   <div class="btn-scr">
     <!-- <button @click="ScrapJ">Scraping</button> -->
-    <button>Scraping</button>
+
+    <button>Scraping BTN</button>
   </div>
 </template>
 
