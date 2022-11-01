@@ -142,5 +142,5 @@ const scrapJ = (async () => {
   // .catch(console.error);
 })();
 
-module.exports = { scrapJ };
-// export default scrapJ;
+// module.exports = { scrapJ };
+export default scrapJ;

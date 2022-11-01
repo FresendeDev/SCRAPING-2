@@ -1,10 +1,10 @@
 <script setup>
 import Scrap from "./components/Scrap.vue";
-// import BtnScraping from "./components/BtnScraping.vue";
+import BtnScraping from "./components/BtnScraping.vue";
 </script>
 
 <template>
-  <!-- <BtnScraping /> -->
+  <BtnScraping />
   <Scrap />
 </template>
 
