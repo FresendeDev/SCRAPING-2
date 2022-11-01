@@ -7,7 +7,7 @@
 </template>
 
 <script>
-// import ScrapJ from "../scraping/scraping-amazon";
+import ScrapJ from "../scraping/scraping-amazon";
 
 export default {
   name: "BtnScraping",
